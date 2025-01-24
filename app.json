@@ -1,7 +1,7 @@
 {
   "name": "Muller-MD",
-  "description": "A WhatsApp Bot Created By David Cyril",
-  "logo": "https://telegra.ph/file/f6230a0cb5b118fa01561.jpg",
+  "description": "A WhatsApp Bot Created By SFT MULLER",
+  "logo": "https://images.app.goo.gl/qHCa1jGYwj1s6Y9M6",
   "keywords": ["bot", "WhatsApp", "JavaScript"],
   "success_url": "/",
   "stack": "heroku-24",
