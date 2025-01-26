@@ -3,9 +3,7 @@
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1000&color=5513F7&width=435&lines=Muller-MD Bot Developed By SFT_MULLER " alt="Typing SVG" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/uwtechshow-official/">
+
     <img src="[https://github.com/MRABDUL13/Muller-MD/blob/main/20250126_220630.jpg](https://github.com/MRABDUL13/Muller-MD/blob/main/20250126_215950.jpg)"  width="700px">
 </a>
 <hr>
