@@ -6,7 +6,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/uwtechshow-official/">
-    <img src="https://github.com/uwtechshow-official/Spriky-Database/blob/main/Logo/Spriky%20Md%20News%20Logo.jpg?raw=true"  width="700px">
+    <img src="[https://github.com/MRABDUL13/Muller-MD/blob/main/20250126_215950.jpg](https://github.com/MRABDUL13/Muller-MD/blob/main/20250126_215950.jpg)"  width="700px">
 </a>
 <hr>
 
