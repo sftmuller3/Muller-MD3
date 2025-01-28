@@ -19,7 +19,7 @@
 <!-- Repo Size -->
   <img src="https://img.shields.io/github/repo-size/Fred1e/LUCKY_MD?color=gold&label=Repo%20Size&style=plastic" alt="Repo Size">
   <!-- Developer -->
-  <img src="https://img.shields.io/static/v1?label=Author&message=Fredi%20Ezra&color=pink&style=plastic" alt="Developer Badge">
+  <img src="https://img.shields.io/static/v1?label=Author&message=SFT%20Muller&color=pink&style=plastic" alt="Developer Badge">
 </p>
 
 
