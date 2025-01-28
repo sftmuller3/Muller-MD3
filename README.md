@@ -15,7 +15,7 @@
  <a href="https://github.com/MRABDUL13?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Fred1e?label=Followers&style=social"></a>
 <a href="https://github.com/MRABDUL13/Muller-MD/stargazers"><img title="STARS" src="https://img.shields.io/github/stars/Fred1e/lucky_md?&style=social"></a>
 <a href="https://github.com/MRABDUL13/Muller-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Fred1e/lucky_md?style=social"></a>
-<a href="https://github.com/Fred1e/lucky_md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Fred1e/lucky_md?label=Watching&style=social"></a>
+<a href="https://github.com/MRABDUL13/Muller-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Fred1e/lucky_md?label=Watching&style=social"></a>
 <!-- Repo Size -->
   <img src="https://img.shields.io/github/repo-size/Fred1e/LUCKY_MD?color=gold&label=Repo%20Size&style=plastic" alt="Repo Size">
   <!-- Developer -->
