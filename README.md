@@ -34,3 +34,6 @@
 <br>
 
 <div align="center">
+
+</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Muller-MD :: Visitor's Count"/></p>
