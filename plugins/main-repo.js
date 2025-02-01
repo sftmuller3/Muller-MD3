@@ -1,18 +1,17 @@
 /*
 
-$$$$$$\            $$\                                               
-$$  __$$\           $$ |                                              
-$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
-\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
- \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
-$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
-\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
- \______/  \______/ \_______/ \________| \_______|\__|       \______/
+*********************************************************************
+* __    __     __  __     __         __         ______     ______   *
+*/\ "-./  \   /\ \/\ \   /\ \       /\ \       /\  ___\   /\  == \  *
+*\ \ \-./\ \  \ \ \_\ \  \ \ \____  \ \ \____  \ \  __\   \ \  __<  *
+* \ \_\ \ \_\  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\*
+*  \/_/  \/_/   \/_____/   \/_____/   \/_____/   \/_____/   \/_/ /_/*
+*********************************************************************
 
-Project Name : SubZero MD
-Creator      : Darrell Mucheri ( Mr Frank OFC )
-Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
-Support      : wa.me/18062212660
+Project Name : Muller MD
+Creator      : SFT MULLER ( Muller-MD )
+Repo         : https//github.com/Mrabdul13/Muller-MD
+Support      : wa.me/2349133628107
 */
 
 
@@ -220,15 +219,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
    
  
  try {
-        let dec = `*Hello There SUBZERO W.A BOT User! 😄👋* 
+        let dec = `*Hello There Muller-MD W.A BOT User! 😄👋* 
 
-> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, SubZero WhatsApp Bot. ❄️
+> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, Muller-MD WhatsApp Bot. ❄️
 
-*Thanks for using SubZero MD🌹🫶* 
+*Thanks for using Muller MD🌹🫶* 
 
 > Don't forget to star & fork the repo🌟🍴
 
-https://github.com/mrfrank-ofc/SUBZERO-MD
+https://github.com/Mrabdul13/Muller-MD
 ──────────────────
 '`;
 
@@ -273,7 +272,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/mrfrank-ofc/SUBZERO-BOT';
+    const githubRepoURL = 'https://github.com/Mrabdul13/Muller-MD';
 
     try {
         // Extract username and repo name from the URL
@@ -289,15 +288,15 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*Hello There SUBZERO W.A BOT User! 😄👋* 
+        const formattedInfo = `*Hello There Muller-MD W.A BOT User! 😄👋* 
 
-> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, SubZero WhatsApp Bot. ❄️
+> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, Muller-MD WhatsApp Bot. ❄️
 
-*Thanks for using SubZero MD🌹🫶* 
+*Thanks for using Muller MD🌹🫶* 
 
 > Don't forget to star & fork the repo🌟🍴
 
-https://github.com/mrfrank-ofc/SUBZERO-BOT
+https://github.com/Mrabdul13/Muller-MD
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -315,11 +314,11 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© ροωєяє∂ ϐγ мя ƒяαиκ οƒϲ* 🎐`;
+\n> *© ροωєяє∂ ϐγ Mullerϲ* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://i.ibb.co/jrhPy01/mrfrankofc.jpg` },
+            image: { url: `https://imgur.com/a/vEfKFOB` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -327,7 +326,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐιτ',
+                    newsletterName: 'Muller м∂ ϐιτ',
                     serverMessageId: 143
                 }
             }
@@ -344,7 +343,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐοτ',
+                    newsletterName: 'Muller м∂ ϐοτ',
                     serverMessageId: 143
                 }
             }
