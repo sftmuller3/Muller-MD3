@@ -37,3 +37,10 @@
 
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Muller-MD :: Visitor's Count"/></p>
+
+> **1️⃣Pair Code (Session ID)**
+
+<a href='https://muller-session.onrender.com' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br> 
