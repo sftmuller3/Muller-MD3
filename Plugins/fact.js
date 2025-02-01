@@ -15,7 +15,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const fact = response.data.text;
 
         const funFact = `
-👾 *PANHWAR-MD RANDOM FACT* 👾
+👾 *Muller-MD RANDOM FACT* 👾
 
 ${fact}
 
