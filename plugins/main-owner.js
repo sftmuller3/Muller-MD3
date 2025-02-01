@@ -1,18 +1,17 @@
 /*
 
-$$$$$$\            $$\                                               
-$$  __$$\           $$ |                                              
-$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
-\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
- \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
-$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
-\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
- \______/  \______/ \_______/ \________| \_______|\__|       \______/
+*********************************************************************
+* __    __     __  __     __         __         ______     ______   *
+*/\ "-./  \   /\ \/\ \   /\ \       /\ \       /\  ___\   /\  == \  *
+*\ \ \-./\ \  \ \ \_\ \  \ \ \____  \ \ \____  \ \  __\   \ \  __<  *
+* \ \_\ \ \_\  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\*
+*  \/_/  \/_/   \/_____/   \/_____/   \/_____/   \/_____/   \/_/ /_/*
+*********************************************************************
 
-Project Name : SubZero MD
-Creator      : Darrell Mucheri ( Mr Frank OFC )
-Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
-Support      : wa.me/18062212660
+Project Name : Muller MD
+Creator      : SFT MULLER ( Muller-MD )
+Repo         : https//github.com/Mrabdul13/Muller-MD
+Support      : wa.me/2349133628107
 */
 
 
@@ -249,8 +248,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.postimg.cc/Tw01QQgN/White-and-Green-Simple-Professional-Business-Project-Presentation-3.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *SUBZERO MD* 〕━━┈⊷
+            image: { url: 'https://imgur.com/a/vEfKFOB' }, // Image URL from your request
+            caption: `╭━━〔 *Muller MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here are the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -265,7 +264,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'Mr Frank OFC (🇿🇼)',
+                    newsletterName: 'SFT MULLER (🇳🇬)',
                     serverMessageId: 143
                 }            
             }
