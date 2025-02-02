@@ -1,18 +1,16 @@
 /*/*
+*********************************************************************
+* __    __     __  __     __         __         ______     ______   *
+*/\ "-./  \   /\ \/\ \   /\ \       /\ \       /\  ___\   /\  == \  *
+*\ \ \-./\ \  \ \ \_\ \  \ \ \____  \ \ \____  \ \  __\   \ \  __<  *
+* \ \_\ \ \_\  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \ \_\ \_\*
+*  \/_/  \/_/   \/_____/   \/_____/   \/_____/   \/_____/   \/_/ /_/*
+*********************************************************************
 
-$$$$$$\            $$\                                               
-$$  __$$\           $$ |                                              
-$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
-\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
- \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
-$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
-\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
- \______/  \______/ \_______/ \________| \_______|\__|       \______/
-
-Project Name : SubZero MD
-Creator      : Darrell Mucheri ( Mr Frank OFC )
-Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
-Support      : wa.me/18062212660
+Project Name : Muller MD
+Creator      : SFT MULLER ( Muller-MD )
+Repo         : https//github.com/Mrabdul13/Muller-MD
+Support      : wa.me/2349133628107
 */
 
 
@@ -275,7 +273,7 @@ cmd(
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
         if (!mek.quoted) return reply(`*Reply to any Image or Video, Sir.*`);
         let mime = mek.quoted.mtype;
-        let pack = Config.STICKER_NAME || "Mr Frank OFC";
+        let pack = Config.STICKER_NAME || "SFT MULLER";
         
         if (mime === "imageMessage" || mime === "stickerMessage") {
             let media = await mek.quoted.download();
