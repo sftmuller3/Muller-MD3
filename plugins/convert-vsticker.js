@@ -1,4 +1,4 @@
-// coded by Mr Frank
+// coded by SFT MULLER
 
 const path = require("path");
 const { tmpdir } = require("os");
@@ -40,7 +40,7 @@ cmd(
 
       // Generate sticker metadata
       const sticker = new Sticker(webpBuffer, {
-        pack: config.STICKER_NAME || 'Mr Franm OFC',
+        pack: config.STICKER_NAME || 'SFT MULLER',
         author: '', // Leave blank or customize
         type: StickerTypes.FULL, // FULL for regular stickers
         categories: ['🤩', '🎉'], // Emoji categories
