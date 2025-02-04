@@ -12,7 +12,7 @@
     },  
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
+      "description": "https://github.com/MRABDUL13/Muller-MD/blob/main/Mullerbot.jpg",
       "required": true
     },
     
