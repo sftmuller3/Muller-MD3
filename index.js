@@ -19,17 +19,17 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['2349133628107']
+const ownerNumber = ['923407472645']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUpTSHAwTVFyNjU2ZEZrejdvajhhUktWMWZyNGpPbWRhWG9oQ3p4S2lXdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN25DZ2d0ekF4elNsUSsxajdvR1ZQcnNvaGgrU0U2bWo4Z2pKYmVCVDkyZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNSWFmZGxDYnF0NTVhNG9zMEoyaWt1ZlRqQWtDdHJDekF5R2NQb0gxZEhZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrUmVscVVlbjNGdm9JdGJmei91UUQ3UTF3Z2UxMFJwUExLLzFBK05wcm5rPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9KeUpXVzNqQTRlLzBsZGxsblZ5M0dtdEJxWG0rYTU0cjNPbVpxWFZWa289In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNsb0U4aDR5emxJaG5tcGk2U1RuRGFubzFGaHBrcjF3WVowZlE4bW1qUms9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUxtcTFoVHh4U2VsUm1qem5rZ3dGRHh4QUZpbE5XRUZaWUhKdllwQXIxOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidGpFSHJ1WS9ENFJPMkhyTmFoLzJiZzljUHBmSG1BbXZPMkxMaWlzK0hqVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdLNS9Dck9QWVJNcHNjLzNjLzdqaFZOemFsOUJnOTlRYXkxVUd2K2FtQ3UvS3p5TkxHQlBpaFRoOVJQOWd0Uk9WZzIwRW9yMFFBdEM2V0V3VjJQdWpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjAyLCJhZHZTZWNyZXRLZXkiOiIxdFRJLzZVdEN0YXlrbm80NGRXdTJOOUZqU29ab2pGUjJGdWtBU0NHbHhrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwODE3OTM0MDBAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiNDgzOEJCMTA1QkMxM0EzQ0U0RjU4RTMzMTY1MTgxRDYifSwibWVzc2FnZVRpbWVzdGFtcCI6MTczODQ3OTI2Nn0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODA4MTc5MzQwMEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJFRTEwM0E2QkMzMkQyMEJGREQxMDYwOTM5QTlFN0RBNSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzM4NDc5MjY2fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJtS2RvdEtMUlFJeXVKQUR5X0duUWtBIiwicGhvbmVJZCI6ImMzNTc5ZTYwLWI2ZGEtNDliNC1iN2Y3LTNiODhkZDY4YWI0YiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ0WUZmOTlVS2RyalJXYVdmMk5UbU0xUW1ZZGs9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiazJzWmdhZERlMEorQ2UydStZc0MrOFRuMnZnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjNLVkFXNVA3IiwibWUiOnsiaWQiOiIyMzQ4MDgxNzkzNDAwOjNAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0t1Yi90Z0JFSlN0L0x3R0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InVwcFJuY1ZLUFdLZnJHREVtWU9ZQitKUFlWeDA2TWhUaU1MSXl4bzZZWDA9IiwiYWNjb3VudFNpZ25hdHVyZSI6InE0ekZacmdSUFZQN0pmZ042S29rOXI4RENRR0ZTVGxabzREeUo1ZXByRnp4QmZrbEphNlpmNURxL0FuS2t2L1lpUlZMYTc3dk4wSUFYK1V2bmhCdUFBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJOVFpnaFltYVlBcDYzRnM1cklvRWdqa3R1WFd0Qi8vbkxlSEQxSnZMd2FncWIxN01VQmk2b2JaMTlSTm81RzN3b0RRdE9rRjhGYXlseS9wcDFudkpnZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDgwODE3OTM0MDA6M0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJicWFVWjNGU2oxaW42eGd4Sm1EbUFmaVQyRmNkT2pJVTRqQ3lNc2FPbUY5In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM4NDc5MjY0LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUppKyJ9')
+if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("Session downloaded âœ…")
+console.log("Session downloaded ✅")
 })})}
 
 const express = require("express");
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting Muller-MD...");
+console.log("Connecting Hasi-Ai 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -51,32 +51,32 @@ const conn = makeWASocket({
         auth: state,
         version
         })
-    
 conn.ev.on('connection.update', (update) => {
 const { connection, lastDisconnect } = update
 if (connection === 'close') {
 if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
-} else if (connection === 'open') {
-console.log('ðŸ˜¼ Installing... ')
+
+  } else if (connection === 'open') {
+console.log('😼 Installing plugins... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('Plugins installed successful âœ…')
-console.log('Bot connected to whatsapp âœ…')
+console.log('Plugins installed successful ✅')
+console.log('Bot connected to whatsapp ✅')
 
-let up = `Muller-MD connected successful âœ…\n\nPREFIX: ${prefix}`;
+  let up = `Hasi-Ai connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
 }
 })
 conn.ev.on('creds.update', saveCreds)  
-
+  
 conn.ev.on('messages.upsert', async(mek) => {
 mek = mek.messages[0]
 if (!mek.message) return	
@@ -133,6 +133,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 
+           
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
 if (isCmd) {
@@ -141,7 +142,7 @@ if (cmd) {
 if (cmd.react) conn.sendMessage(from, { react: { text: cmd.react, key: mek.key }})
 
 try {
-cmd.function(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply});
+cmd.function(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants: isGroup ? await groupMetadata.participants : '', groupAdmins, isBotAdmins, isAdmins, reply});
 } catch (e) {
 console.error("[PLUGIN ERROR] " + e);
 }
@@ -149,26 +150,26 @@ console.error("[PLUGIN ERROR] " + e);
 }
 events.commands.map(async(command) => {
 if (body && command.on === "body") {
-command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants: isGroup ? await groupMetadata.participants : '', groupAdmins, isBotAdmins, isAdmins, reply})
 } else if (mek.q && command.on === "text") {
-command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants: isGroup ? await groupMetadata.participants : '', groupAdmins, isBotAdmins, isAdmins, reply})
 } else if (
 (command.on === "image" || command.on === "photo") &&
 mek.type === "imageMessage"
 ) {
-command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants: isGroup ? await groupMetadata.participants : '', groupAdmins, isBotAdmins, isAdmins, reply})
 } else if (
 command.on === "sticker" &&
 mek.type === "stickerMessage"
 ) {
-command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants: isGroup ? await groupMetadata.participants : '', groupAdmins, isBotAdmins, isAdmins, reply})
 }});
 //============================================================================ 
 
 })
 }
 app.get("/", (req, res) => {
-res.send("Hey, Muller-MD startedâœ…");
+res.send("Hey,Hasi-Ai started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
