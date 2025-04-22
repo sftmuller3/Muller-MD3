@@ -1,4 +1,4 @@
-var command = [];
+var commands = [];
 
 function cmd(info, func) {
     var data = info;
