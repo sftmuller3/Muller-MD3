@@ -6,7 +6,7 @@ cmd({
   pattern: 'alive',
   alias: ['status', 'uptime'],
   react: '⚡',
-  desc: 'Check if Muller-MD is alive and show system stats',
+  desc: 'Check if Mulle-MD is alive and show system stats',
   category: 'general',
   use: '.alive',
 }, async (conn, m) => {
