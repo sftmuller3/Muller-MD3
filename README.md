@@ -5,7 +5,7 @@
 
 <h1 align="center"> ᴄʟɪᴄᴋ ᴡᴀ ʟᴏɢᴏ ᴛᴏ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👇 </h1>
  
-<br> [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://www.whatsapp.com/channel/0029VasNvD33mFXwqrkFzZ3u)
+<br> [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://whatsapp.com/channel/0029VaFT2CSCRs1urRZGea1B)
   <div align="center"  >
 ``` 
   
