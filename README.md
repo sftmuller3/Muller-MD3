@@ -112,7 +112,7 @@ node .
 
 🔗 Useful Links
 
-[![Join Our WhatsApp Channel](https://img.shields.io/badge/Join%20Channel-WhatsApp-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VbANsvkIiRp31CEW3C2C)
+[![Join Our WhatsApp Channel](https://img.shields.io/badge/Join%20Channel-WhatsApp-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VaFT2CSCRs1urRZGea1B)
 ---
 
 👑 Credits
@@ -122,5 +122,5 @@ node .
 
 ---
 
-*©️ 2025 – TERRA XMD | All Rights Reserved.*
+*©️ 2025 – MULLER MD | All Rights Reserved.*
 
