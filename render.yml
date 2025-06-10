@@ -1,0 +1,23 @@
+
+services:
+  - type: web
+    name: terra-xmd
+    env: node
+    plan: free
+    repo: https://github.com/MRABDUL13/Muller-MD.git
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: MODE
+        value: public
+      - key: PREFIX
+        value: .
+      - key: BOT_NAME
+        value: MULLER-MD
+      - key: OWNER_NUMBER
+        value: 2349166255902
+        
