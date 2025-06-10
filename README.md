@@ -15,7 +15,7 @@
 
 **SESSION ID💫**
 
-[![Get Session](https://img.shields.io/badge/Get%20Session-MULLER-MD-blueviolet?style=for-the-badge&logo=linktree)](https://terra-xmd-pair.onrender.com)
+[![Get Session](https://img.shields.io/badge/Get%20Session-MULLERMD-blueviolet?style=for-the-badge&logo=linktree)](https://terra-xmd-pair.onrender.com)
 ---
 
 🧠 Features
