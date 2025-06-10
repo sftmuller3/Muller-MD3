@@ -10,7 +10,7 @@
   <a href="https://github.com/MRABDUL13/Muller-MD"><img src="https://img.shields.io/github/stars/Crazynotdev/TERRA-XMD?style=flat-square&color=yellow"></a>
   <a href="https://github.com/MRABDUL13/Muller-MD/fork"><img src="https://img.shields.io/github/forks/MRABDUL13/Muller-MD?style=flat-square&color=lightblue"></a>
   <a href="https://whatsapp.com/channel/0029VaFT2CSCRs1urRZGea1B"><img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat-square&logo=whatsapp"></a>
-  <a href="https://github.com/MRABDUL13"><img src="https://img.shields.io/badge/Dev-Crazynotdev-blueviolet?style=flat-square"></a>
+  <a href="https://github.com/MRABDUL13"><img src="https://img.shields.io/badge/MULLER-TECH-blueviolet?style=flat-square"></a>
 </p>
 
 **SESSION ID💫**
