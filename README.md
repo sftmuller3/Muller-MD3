@@ -15,7 +15,7 @@
 
 **SESSION ID💫**
 
-[![Get Session](https://img.shields.io/badge/Get%20Session-MULLERMD-blueviolet?style=for-the-badge&logo=linktree)](https://terra-xmd-pair.onrender.com)
+[![Get Session](https://img.shields.io/badge/Get%20Session-MULLERMD-blueviolet?style=for-the-badge&logo=linktree)](https://muller-md-session-id.onrender.com/)
 ---
 
 🧠 Features
@@ -35,7 +35,7 @@
 
 🌐 Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Crazynotdev/TERRA-XMD.git)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MRABDUL13/Muller-MD.git)
 
 ☁️ Koyeb
 
