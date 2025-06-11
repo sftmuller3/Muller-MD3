@@ -3,7 +3,7 @@ services:
   - type: web
     name: terra-xmd
     env: node
-    plan: free
+    plan: freee
     repo: https://github.com/MRABDUL13/Muller-MD.git
     branch: main
     buildCommand: npm install
