@@ -1,10 +1,3 @@
-/*
-MULLERTECH
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +2349166255902
-Github: MULLERTECH
-*/
 var commands = [];
 
 function cmd(info, func) {
