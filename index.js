@@ -1,11 +1,3 @@
-/*
-MULLER
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +2349166255903
-Github: Mullertech
-*/
-
 const {
 default: makeWASocket,
 useMultiFileAuthState,
@@ -37,7 +29,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['24105730123']
+const ownerNumber = ['2349166255903']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/connect/creds.json')) {
