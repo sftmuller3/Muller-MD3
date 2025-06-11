@@ -1,15 +1,3 @@
-/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-   🛠️ MULLERTECH🛠️
-   
-   📌 NOTE:
-   If you use or copy any part of this code,
-   you MUST give proper credit!
-
-   📞 Contact: +2349166255903
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
-
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
