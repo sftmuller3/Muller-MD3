@@ -31,7 +31,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['24105730123']
+const ownerNumber = ['2349166255902']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/connect/creds.json')) {
@@ -85,7 +85,7 @@ let up = `*╭──────────────●●*
 
 > *🚩ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ʙᴏᴛ*
 
-*https://whatsapp.com/channel/0029VahusSh0QeaoFzHJCk2x*
+*https://whatsapp.com/channel/0029VaFT2CSCRs1urRZGea1B*
 
 ➳ ᴘʀᴇғɪx ${prefix}
 
