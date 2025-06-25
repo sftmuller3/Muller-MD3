@@ -41,7 +41,7 @@ cmd({
 
     let type = stickers.data.result.is_animated ? 'animated sticker' : 'not animated sticker';
 
-    let message = `*🧩TERRA TELEGRAM STICKER🧩*\n\n` +
+    let message = `*🧩MULLER TELEGRAM STICKER🧩*\n\n` +
                   `*Producer:* ${stickers.data.result.name}\n` +
                   `*Type:* ${type}\n` +
                   `*Length:* ${stickers.data.result.stickers.length}\n\n` +
