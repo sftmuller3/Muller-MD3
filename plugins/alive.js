@@ -5,7 +5,7 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://files.catbox.moe/zjyd13.jpeg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://files.catbox.moe/hqj7mh.png"; // Assurez-vous que cette URL est valide
 
 cmd({
     pattern: "alive",
@@ -26,7 +26,7 @@ cmd({
 
         const formattedInfo = `
 
-╭❍🌐 𝚃𝙴𝚁𝚁𝙰 𝚇𝙼𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 🌐❍╮
+╭❍🌐 𝕸𝖀𝕷𝕷𝕰𝕽 𝕸𝕯 𝖃1 🌐❍╮
 
 👋🏽 𝗛𝗲𝘆, ${pushname}
  
