@@ -36,13 +36,13 @@ cmd({
 
 ⏳ 𝗨𝗽𝘁𝗶𝗺𝗲 : ${runtimeHours}h ${runtimeMinutes} m ${runtimeSeconds}s  
 
-🤖 𝗦𝘁𝗮𝘁𝘂𝘀 : *Terra XMD is Online & Running Smoothly!*
+🤖 𝗦𝘁𝗮𝘁𝘂𝘀 : *Muller MD is Online & Running Smoothly!*
 
-🚀 𝗠𝗼𝗱𝗲 : *XMD | Clean • Smart • Powerful*
+🚀 𝗠𝗼𝗱𝗲 : *MD | Clean • Smart • Powerful*
 
 > 🎉 𝗘𝗻𝗷𝗼𝘆 𝘁𝗵𝗲 𝗩𝗶𝗏𝗲 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲!
 
-╰❍ Powered by CrazyTechInc ❍╯
+╰❍ Powered by SoftwareMuller❍╯
 
         `.trim();
 
