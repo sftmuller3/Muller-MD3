@@ -52,7 +52,7 @@ cmd(
           '```\u2705 Your Muller-MD bot is already up-to-date!✅```\n'
         )
       }
-      await _0x33b9fc('```muller Md Bot Updating...\uD83D\uDE80```\n')
+      await _0x33b9fc('```Muller Md Bot Updating...\uD83D\uDE80```\n')
       const _0x4a7e72 = path.join(__dirname, 'latest.zip'),
         { data: _0x99182c } = await axios.get(
           'https://github.com/MRABDUL13/Muller-MD/archive/main.zip',
