@@ -23,7 +23,7 @@ cmd({
     react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair +237656520674",
+    use: ".pair +2349166255902",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *TERRA XMD PAIR COMPLETED*";
+        const doneMessage = "> *MULLER MD PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n> *PAIRING CODE IS: ${pairingCode}*`);
