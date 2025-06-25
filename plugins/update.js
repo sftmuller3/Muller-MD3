@@ -35,9 +35,9 @@ cmd(
       return _0x33b9fc('This command is only for the bot owner.')
     }
     try {
-      await _0x33b9fc('```\uD83D\uDD0D Checking for TERRA-XMD updates...💫```\n')
+      await _0x33b9fc('```\uD83D\uDD0D Checking for Muller-MD updates...💫```\n')
       const { data: _0x1258fc } = await axios.get(
-          'https://api.github.com/repos/Crazynotdev/TERRA-XMD/commits/main'
+          'https://api.github.com/repos/MRABDUL13/Muller-MD/commits/main'
         ),
         _0x190d17 = _0x1258fc.sha
       let _0x429064 = 'unknown'
@@ -49,13 +49,13 @@ cmd(
       }
       if (_0x190d17 === _0x429064) {
         return _0x33b9fc(
-          '```\u2705 Your TERRA-XMD bot is already up-to-date!✅```\n'
+          '```\u2705 Your Muller-MD bot is already up-to-date!✅```\n'
         )
       }
-      await _0x33b9fc('```terra xMd Bot Updating...\uD83D\uDE80```\n')
+      await _0x33b9fc('```muller Md Bot Updating...\uD83D\uDE80```\n')
       const _0x4a7e72 = path.join(__dirname, 'latest.zip'),
         { data: _0x99182c } = await axios.get(
-          'https://github.com/Crazynotdev/TERRA-XMD/archive/main.zip',
+          'https://github.com/MRABDUL13/Muller-MD/archive/main.zip',
           { responseType: 'arraybuffer' }
         )
       fs.writeFileSync(_0x4a7e72, _0x99182c)
@@ -64,7 +64,7 @@ cmd(
         _0x4249ba = new AdmZip(_0x4a7e72)
       _0x4249ba.extractAllTo(_0x74484, true)
       await _0x33b9fc('```\uD83D\uDD04 Replacing files...```\n')
-      const _0x552090 = path.join(_0x74484, 'TERRA-XMD-main'),
+      const _0x552090 = path.join(_0x74484, 'Muller-MD-main'),
         _0x3c64ef = path.join(__dirname, '..')
       copyFolderSync(_0x552090, _0x3c64ef)
       fs.unlinkSync(_0x4a7e72)
