@@ -25,7 +25,7 @@ cmd(
     }
     try {
       const { data: _0x5b6f17 } = await axios.get(
-          'https://api.github.com/repos/Crazynotdev/TERRA-XMD/commits/main'
+          'https://api.github.com/repos/MRABDUL13/Muller-MD/commits/main'
         ),
         _0x2bd28a = _0x5b6f17.sha,
         _0x352f8e = _0x5b6f17.commit.author.name,
@@ -45,11 +45,11 @@ cmd(
       }
       if (_0x2bd28a === _0x22514c) {
         return _0x5d90e8(
-          '```\u2705 Your TERRA-XMD bot is already up-to-date!```\n'
+          '```\u2705 Your Muller-MD bot is already up-to-date!```\n'
         )
       } else {
         await _0x5d90e8(
-          '\uD83D\uDD04 *🔸Updates are available for TERRA XMD.*\n\uD83D\uDCDD *Last Commit*: `' +
+          '\uD83D\uDD04 *🔸Updates are available for MULLER MD.*\n\uD83D\uDCDD *Last Commit*: `' +
             _0x2bd28a +
             '`\n\uD83D\uDC64 *Author*: ' +
             _0x352f8e +
