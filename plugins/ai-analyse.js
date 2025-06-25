@@ -39,7 +39,7 @@ cmd({
     const uploadedUrl = imgbbResponse.data.data.url;
     fs.unlinkSync(tempPath);
 
-    await reply("```terra-xmd is analyzing the image...```");
+    await reply("```muller-md is analyzing the image...```");
 
     const geminiUrl = "https://api.nexoracle.com/ai/gemini-image";
     const paramsObj = {
@@ -65,7 +65,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363294574934046@newsletter',
-          newsletterName: '𝐓𝐄𝐑𝐑𝐀 𝐆𝐄𝐌𝐈𝐍𝐈',
+          newsletterName: 'MULLER GEMINI',
           serverMessageId: 143
         }
       }
