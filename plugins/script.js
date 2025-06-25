@@ -15,7 +15,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Crazynotdev/TERRA-XMD';
+    const githubRepoURL = 'https://github.com/MRABDUL13/Muller-MD';
 
     try {
         // Extract username and repo name from the URL
@@ -32,12 +32,12 @@ async (conn, mek, m, { from, reply }) => {
 
         // Format the repository information
         const formattedInfo = `
-╭─❄️ *WELCOME TO TERRA W.A BOT*
+╭─❄️ *WELCOME TO MULLER W.A BOT*
 │  👋 Hello dear user!              
 │  🔥 Simple, Cold & Feature-Rich Bot
-│  💖 Thank you for using *TERRA MD*
+│  💖 Thank you for using *MULLER MD*
 │  ⭐ Don’t forget to *star* & *fork* us!
-│  🔗 github.com/Crazynotdev/TERRA-XMD
+│  🔗 github.com/MRABDUL13/Muller-MD
 ╰────────────────────────╯
 
 ${readMore}
@@ -50,7 +50,7 @@ ${readMore}
 │📃 DESCRIPTION: ${repoData.description || 'No description'}
 ╰────────────────╯
 
-> *©️ POWERED BY CRAZY* ☃️`;
+> *©️ POWERED BY MULLER* ☃️`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
@@ -62,7 +62,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363400129137847@newsletter',
-                    newsletterName: 'TERRA XMD REPO💫',
+                    newsletterName: 'MULLER MD REPO💫',
                     serverMessageId: 143
                 }
             }
