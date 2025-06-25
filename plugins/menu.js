@@ -36,7 +36,7 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
 try{
-let TerraMenu = `╭━〔 *𝐓𝐄𝐑𝐑𝐀 𝐗𝐌𝐃 𝐗𝟏* 〕━┈⊷
+let TerraMenu = `╭━〔 *𝕸𝖀𝕷𝕷𝕰𝕽 𝕸𝕯 𝖃1* 〕━┈⊷
 ┃╭──────────────────
 ‎┃│🍹 *_𝐔𝐬𝐞𝐫 :_* ${pushname}
 ‎┃│🦄 *_𝐌𝐨𝐝𝐞 :_* ${config.MODE}
