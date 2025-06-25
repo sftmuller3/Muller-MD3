@@ -28,8 +28,8 @@ cmd({
   try {
     // Propriétaires' informations de contact
     const owners = [
-      { number: '+24105730123', name: 'CRAZY DEV', organization: 'DAVID TEAM' },
-      { number: '+221752238497', name: 'DAVID TECH', organization: 'DAVID TEAM' }
+      { number: '+2349166255902', name: 'MULLER DEV', organization: 'DAVID TEAM' },
+      { number: '+2349133628107', name: 'MULLER TECH', organization: 'DAVID TEAM' }
     ];
 
     let contacts = [];
