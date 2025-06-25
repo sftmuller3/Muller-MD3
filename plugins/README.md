@@ -1,0 +1,9 @@
+-----------
+
+***WELCOME TO TERRA XMD PLUGINS LIST CREATED BY CRAZY NOT DEV 241***
+
+-----------
+
+***THE WORLD BEST WHATSAPP BOT***
+
+----------
