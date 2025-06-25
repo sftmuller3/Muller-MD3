@@ -13,7 +13,7 @@ const saveDiaries = () => {
 };
 
 // URL of the image (replace with a valid URL)
-const DIARY_IMG = "https://files.catbox.moe/ir370g.jpg"; 
+const DIARY_IMG = "https://files.catbox.moe/57aduv.png"; 
 
 // ---------------------
 // .diary command (open or create diary)
