@@ -91,7 +91,7 @@ let up = `*╭──────────────●●*
 *𝙱𝙾𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈✅*\n\n> 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙼𝚄𝙻𝙻𝙴𝚁𝚃𝙴𝙲𝙷*
 
 *╰──────────────●●*`;
-conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7cqklf.jpeg` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/zreaq0.jpeg` }, caption: up })
 
 }
 })
