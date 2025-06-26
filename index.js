@@ -1,11 +1,3 @@
-/*
-🇩 🇦 🇻 🇮 🇩  🇹 🇪 🇨 🇭  🇮 🇳 🇨 
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +24105730123
-Github: DavidTechInc
-*/
-
 const {
 default: makeWASocket,
 useMultiFileAuthState,
