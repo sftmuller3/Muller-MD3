@@ -1,7 +1,7 @@
 
 services:
   - type: web
-    name: terra-xmd
+    name: Muller-md
     env: node
     plan: free
     repo: https://github.com/MRABDUL13/Muller-MD.git
