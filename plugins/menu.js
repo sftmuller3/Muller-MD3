@@ -289,7 +289,7 @@ await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:TerraMenu,
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363400129137847@newsletter',
+      newsletterJid: '120363419333086422@newsletter',
       newsletterName: '𝕸𝖀𝕷𝕷𝕰𝕽 𝐒𝐔𝐏𝐏𝐎𝐑𝐓',
       serverMessageId: 999
     }
