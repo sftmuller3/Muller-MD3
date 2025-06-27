@@ -137,8 +137,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400129137847@newsletter',
-                    newsletterName: '𝐓𝐄𝐑𝐑𝐀 𝐀𝐈',
+                    newsletterJid: '120363419333086422@newsletter',
+                    newsletterName: 'MULLER AI',
                     serverMessageId: 143
                 }
             }
