@@ -70,7 +70,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 *Image ${i + 1} from your search! ⭐*
 
-> FOR YOU BY CRAZY TECH❤️`
+> FOR YOU BY MULLER TECH❤️`
 }, { quoted: mek });
 }
 
